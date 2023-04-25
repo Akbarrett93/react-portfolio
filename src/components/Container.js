@@ -1,7 +1,21 @@
 import React from "react";
-import navTabs from "./Navigation";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Project from "./pages/Project";
+import Footer from "./Footer";
+import Header from "./Header";
 
-export default function pageContainer() {}
+export default function Container() {
+  return (
+    <div>
+      <header>
+        <Header />
+      </header>
+
+      <div></div>
+
+      <footer>
+        <Footer />
+      </footer>
+    </div>
+  );
+}
+
+      
