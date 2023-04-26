@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
-      <p>Developed by Alex Barrett, 2023</p>
-    </div>
+    <footer>
+      <p class="text-center">Developed by Alex Barrett, 2023</p>
+    </footer>
   );
 }

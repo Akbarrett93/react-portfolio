@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
+    <div class="text-center justify-center">
       <h1>About Me:</h1>
       <p>
         Hi, I'm Alex! I am currently finishing a Coding Bootcamp at UNC Chapel
