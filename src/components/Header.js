@@ -5,9 +5,9 @@ import aboutimg from "../assets/about.png";
 import portimg from "../assets/portfolio.png";
 import conimg from "../assets/email.png";
 
-export default function NavTabs({ currentPage, handlePageChange }) {
+export default function NavTabs() {
   return (
-    <nav className="bg-gray-200 flex justify-between border dark:bg-gray-900">
+    <nav className="bg-gray-200 flex justify-between border dark:bg-gray-900 p-1">
       <Link to="/home">
         <img src={homeimg} alt="home" width="43" height="43" />
       </Link>
