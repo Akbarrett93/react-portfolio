@@ -1,33 +1,33 @@
-import React, { useState } from "react";
-import NavTabs from "./Navigation";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Project from "./pages/Project";
+import React from "react";
+import { Link } from "react-router-dom";
+import homeimg from "../assets/home.png";
+import aboutimg from "../assets/about.png";
+import portimg from "../assets/portfolio.png";
+import conimg from "../assets/email.png";
 
-export default function Header() {
-  const [currentPage, setCurrentPage] = useState("Home");
-
-  // Renders the current page
-  const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
-    if (currentPage === "About") {
-      return <About />;
-    }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
-    if (currentPage === "Project") {
-      return <Project />;
-    }
-  };
-  const handlePageChange = (page) => setCurrentPage(page);
+export default function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+    <nav className="bg-gray-200 flex justify-between border dark:bg-gray-900">
+      <Link to="/home">
+        <img src={homeimg} alt="home" width="43" height="43" />
+      </Link>
+      <ul className="flex gap-1">
+        <li>
+          <Link to="/about">
+            <img src={aboutimg} alt="about" width="43" height="43" />
+          </Link>
+        </li>
+        <li>
+          <Link to="/portfolio">
+            <img src={portimg} alt="portfolio" width="43" height="43" />
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact">
+            <img src={conimg} alt="contact" width="45" height="45" />
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }
