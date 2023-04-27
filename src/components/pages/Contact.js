@@ -4,8 +4,8 @@ import HUBimg from "../../assets/Portfolio/github-mark-white.svg";
 
 export default function Contact() {
   return (
-    <div className="text-center m-[100px]">
-      <div className="flex space-x-5 justify-center">
+    <div id="contact-box" className="text-center m-[100px]">
+      <div id="images" className="flex space-x-5 justify-center">
         <a href="https://www.linkedin.com/in/alex-barrett-2a4510138/">
           <img src={LINimg} alt="LinkedIn" width="50" height="50" />
         </a>
