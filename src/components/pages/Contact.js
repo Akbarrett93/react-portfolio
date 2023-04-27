@@ -1,6 +1,6 @@
 import React from "react";
 import LINimg from "../../assets/Portfolio/linkedin-icon.svg";
-import HUBimg from "../../assets/Portfolio/github-mark.svg";
+import HUBimg from "../../assets/Portfolio/github-mark-white.svg";
 
 export default function Contact() {
   return (
