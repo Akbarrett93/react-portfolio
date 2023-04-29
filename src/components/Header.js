@@ -19,11 +19,6 @@ export default function NavTabs() {
           <h1 className="pt-3 pl-3">Projects</h1>
         </Link>
       </div>
-      <div>
-        <Link to="/contact" style={{ display: "inline-block" }}>
-          <h1 className="pt-3 pl-3">Contact</h1>
-        </Link>
-      </div>
     </nav>
   );
 }

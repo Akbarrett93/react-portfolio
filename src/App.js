@@ -5,7 +5,6 @@ import NavTabs from "./components/Header";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Portfolio from "./components/pages/Project";
-import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,7 +18,6 @@ function App() {
           <Route path="/" element={<Navigate replace to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
         </Routes>
       </div>
