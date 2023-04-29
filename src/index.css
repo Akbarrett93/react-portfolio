@@ -77,9 +77,33 @@ body {
 }
 
 #portfolio-box {
-   font-size: xx-large;
+   font-size: 40px;
 }
 
+#portfolio-box::-webkit-scrollbar {
+   display: none;
+ }
+
 #navbar {
-   font-size:x-large
+   font-size: x-large
+}
+
+#small {
+   font-size: medium;
+   font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+   #small {
+      display: none;
+   }
+}
+
+@media screen and (max-width: 675px) {
+   #navbar {
+      font-size: larger;
+   }
+   #portfolio-box {
+      font-size: larger;
+   }
 }
