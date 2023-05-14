@@ -21,7 +21,8 @@ export default function Portfolio() {
             style={{ display: "inline-block" }}
           >
             <p>
-              <span id="small">handlebars / css / js </span>FitTrack App
+              <span id="small">handlebars / css / js / node / mysql </span>
+              FitTrack App
             </p>
           </a>
         </li>
