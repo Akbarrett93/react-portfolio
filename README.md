@@ -23,7 +23,7 @@
   Download the project and install NPM
 
   ## Usage
-  N/A
+  [Link to my portfolio](https://akbarrett93.github.io/react-portfolio/)
 
   ## Questions
   Have questions? Contact me at:
