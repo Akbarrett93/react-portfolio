@@ -2,6 +2,7 @@ import React from "react";
 import LINimg from "../assets/Portfolio/linkedin-icon.svg";
 import HUBimg from "../assets/Portfolio/github-mark-white.svg";
 import EMimg from "../assets/Portfolio/icons8-email-48.png";
+import RESimg from "../assets/Portfolio/icons8-resume-48.png";
 
 export default function Footer() {
   return (
@@ -15,6 +16,9 @@ export default function Footer() {
       </a>
       <a href="mailto: akbarrett1993@gmail.com">
         <img src={EMimg} alt="Email" width="30" height="30" />
+      </a>
+      <a href="https://drive.google.com/file/d/1v6ynwOXJglWB1BnSxKbyhpAoWXG1kkFN/view?usp=sharing">
+        <img src={RESimg} alt="Resume" width="30" height="30" />
       </a>
     </div>
   );
